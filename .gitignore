@@ -1,0 +1,41 @@
+# macOS / editor
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# data files: do not upload raw competition data or generated data
+*.csv
+*.zip
+
+# documents: do not upload pdf / ppt / docs
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+~$*.doc*
+
+# model / training outputs
+outputs/
+checkpoints/
+models/
+runs/
+wandb/
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# logs
+*.log
