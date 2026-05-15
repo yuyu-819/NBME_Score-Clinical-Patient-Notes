@@ -153,7 +153,7 @@ validation inference 後，模型會輸出每個 token 的 logits
 threshold 在 validation 上調整 常見 threshold：0.5
 
 *後續優化*  
-① 在 validation 上找threshold最佳值 
+① 在 validation 上找threshold最佳值     
 ② offset_mapping decode 設計（是否修正空白、使否須去掉span、多段span是否合併）
 
 decode 時需要做：
